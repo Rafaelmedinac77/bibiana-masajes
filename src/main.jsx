@@ -4,28 +4,27 @@ import './styles.css'
 
 const WHATSAPP = 'https://wa.me/393891425947'
 
-const text = {
+const copy = {
   it: {
     nav: ['Trattamenti', 'Metodo', 'Chi sono', 'Contatto'],
     heroKicker: 'Massaggi professionali a Bogliasco · Genova',
     heroTitle: 'Benessere, leggerezza e cura del corpo',
     heroText:
-      'Trattamenti manuali professionali pensati per ridurre la tensione, migliorare la sensazione di leggerezza e valorizzare il benessere naturale del corpo.',
+      'Trattamenti manuali professionali per drenare, rilassare, modellare e valorizzare il benessere naturale del corpo.',
     cta: 'Prenota su WhatsApp',
     cta2: 'Vedi trattamenti',
-    tags: ['Metodo manuale', 'Prenotazione rapida', 'Bogliasco / Genova'],
-    servicesTitle: 'Trattamenti',
+    tags: ['Drenaggio Linfatico', 'Miracle Face', 'Massaggio Modellante', 'Massaggio Rilassante'],
+    servicesTitle: 'Trattamenti professionali',
     servicesSubtitle:
-      'Percorsi mirati per viso, corpo, rilassamento e drenaggio.',
+      'Ogni trattamento viene adattato alle esigenze della persona, con attenzione, tecnica e cura.',
     methodTitle: 'Un metodo manuale, preciso e personalizzato',
     methodText:
-      'Ogni trattamento viene adattato alle esigenze della persona. L’obiettivo è offrire un’esperienza professionale, sicura e orientata al benessere reale.',
+      'Il trattamento viene scelto in base all’obiettivo: leggerezza, rilassamento, definizione del contorno corporeo o cura del viso.',
     aboutTitle: 'Chi sono',
     aboutText:
-      'Sono Bibiana Gamboa Martinez, massaggiatrice a Bogliasco, Genova. Offro trattamenti manuali professionali con attenzione, cura e rispetto per ogni cliente.',
+      'Sono Bibiana Gamboa Martinez, massaggiatrice a Bogliasco, Genova. Offro trattamenti manuali professionali in un ambiente riservato e curato.',
     contactTitle: 'Prenota il tuo trattamento',
-    contactText:
-      'Scrivimi su WhatsApp per informazioni, disponibilità e prenotazioni.',
+    contactText: 'Scrivimi su WhatsApp per informazioni, disponibilità e prenotazioni.',
     location: 'Via Privata Adelina 4, Bogliasco, Genova, Italia',
     footer: 'Bibiana Massaggi · Bogliasco / Genova'
   },
@@ -34,22 +33,21 @@ const text = {
     heroKicker: 'Masajes profesionales en Bogliasco · Génova',
     heroTitle: 'Bienestar, ligereza y cuidado corporal',
     heroText:
-      'Tratamientos manuales profesionales pensados para reducir tensión, mejorar la sensación de ligereza y cuidar el bienestar natural del cuerpo.',
+      'Tratamientos manuales profesionales para drenar, relajar, modelar y cuidar el bienestar natural del cuerpo.',
     cta: 'Reservar por WhatsApp',
     cta2: 'Ver tratamientos',
-    tags: ['Método manual', 'Reserva rápida', 'Bogliasco / Génova'],
-    servicesTitle: 'Tratamientos',
+    tags: ['Drenaje Linfático', 'Miracle Face', 'Masaje Modelante', 'Masaje Relajante'],
+    servicesTitle: 'Tratamientos profesionales',
     servicesSubtitle:
-      'Servicios enfocados en rostro, cuerpo, relajación y drenaje.',
+      'Cada tratamiento se adapta a las necesidades de la persona, con atención, técnica y cuidado.',
     methodTitle: 'Un método manual, preciso y personalizado',
     methodText:
-      'Cada tratamiento se adapta a las necesidades de la persona. El objetivo es ofrecer una experiencia profesional, segura y orientada al bienestar real.',
+      'El tratamiento se elige según el objetivo: ligereza, relajación, definición del contorno corporal o cuidado facial.',
     aboutTitle: 'Sobre mí',
     aboutText:
-      'Soy Bibiana Gamboa Martinez, masajista en Bogliasco, Génova. Ofrezco tratamientos manuales profesionales con atención, cuidado y respeto por cada cliente.',
+      'Soy Bibiana Gamboa Martinez, masajista en Bogliasco, Génova. Ofrezco tratamientos manuales profesionales en un ambiente reservado y cuidado.',
     contactTitle: 'Reserva tu tratamiento',
-    contactText:
-      'Escríbeme por WhatsApp para información, disponibilidad y reservas.',
+    contactText: 'Escríbeme por WhatsApp para información, disponibilidad y reservas.',
     location: 'Via Privata Adelina 4, Bogliasco, Génova, Italia',
     footer: 'Bibiana Masajes · Bogliasco / Génova'
   }
@@ -59,84 +57,84 @@ const services = {
   it: [
     {
       title: 'Drenaggio Linfatico',
-      desc: 'Trattamento manuale orientato alla sensazione di leggerezza, drenaggio e benessere corporeo.'
+      desc: 'Tecnica manuale orientata alla sensazione di leggerezza, drenaggio e benessere corporeo.',
+      img: 'https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=900&q=80'
     },
     {
       title: 'Miracle Face',
-      desc: 'Massaggio viso pensato per valorizzare i lineamenti, rilassare e dare freschezza al volto.'
+      desc: 'Massaggio viso pensato per rilassare, valorizzare i lineamenti e donare freschezza al volto.',
+      img: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=80'
     },
     {
       title: 'Massaggio Modellante',
-      desc: 'Tecnica manuale per lavorare il contorno corporeo con movimenti intensi e mirati.'
+      desc: 'Trattamento manuale intenso e mirato per lavorare il contorno corporeo.',
+      img: 'https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=900&q=80'
     },
     {
       title: 'Massaggio Rilassante',
-      desc: 'Trattamento ideale per ridurre tensione, stress e favorire una profonda sensazione di calma.'
+      desc: 'Ideale per ridurre tensione, stress e favorire una profonda sensazione di calma.',
+      img: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=80'
     }
   ],
   es: [
     {
       title: 'Drenaje Linfático',
-      desc: 'Tratamiento manual orientado a la sensación de ligereza, drenaje y bienestar corporal.'
+      desc: 'Técnica manual orientada a la sensación de ligereza, drenaje y bienestar corporal.',
+      img: 'https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=900&q=80'
     },
     {
       title: 'Miracle Face',
-      desc: 'Masaje facial pensado para resaltar los rasgos, relajar y aportar frescura al rostro.'
+      desc: 'Masaje facial pensado para relajar, resaltar los rasgos y aportar frescura al rostro.',
+      img: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=80'
     },
     {
       title: 'Masaje Modelante',
-      desc: 'Técnica manual para trabajar el contorno corporal con movimientos intensos y dirigidos.'
+      desc: 'Tratamiento manual intenso y dirigido para trabajar el contorno corporal.',
+      img: 'https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=900&q=80'
     },
     {
       title: 'Masaje Relajante',
-      desc: 'Tratamiento ideal para reducir tensión, estrés y favorecer una sensación profunda de calma.'
+      desc: 'Ideal para reducir tensión, estrés y favorecer una sensación profunda de calma.',
+      img: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=80'
     }
   ]
 }
 
 function App() {
   const [lang, setLang] = useState('it')
-  const t = text[lang]
-  const s = services[lang]
+  const t = copy[lang]
+  const currentServices = services[lang]
 
   return (
     <>
       <header className="header">
         <a href="#" className="brand">
           <span className="brandCircle">BG</span>
-          <span>
-            BIBIANA
-            <br />
-            MASSAGGI
-          </span>
+          <span>BIBIANA<br />MASSAGGI</span>
         </a>
 
         <nav className="nav">
-          {t.nav.map((item) => (
-            <a key={item} href={`#${item.toLowerCase().replaceAll(' ', '-')}`}>
-              {item}
-            </a>
-          ))}
+          <a href="#trattamenti">{t.nav[0]}</a>
+          <a href="#metodo">{t.nav[1]}</a>
+          <a href="#chi-sono">{t.nav[2]}</a>
+          <a href="#contatto">{t.nav[3]}</a>
         </nav>
 
-        <button
-          className="langBtn"
-          onClick={() => setLang(lang === 'it' ? 'es' : 'it')}
-        >
-          🌐 {lang === 'it' ? 'ES' : 'IT'}
+        <button className="langBtn" onClick={() => setLang(lang === 'it' ? 'es' : 'it')}>
+          {lang === 'it' ? 'ES' : 'IT'}
         </button>
       </header>
 
       <main>
         <section className="hero">
           <div className="heroContent">
-            <p className="kicker">✦ {t.heroKicker}</p>
+            <p className="kicker">{t.heroKicker}</p>
             <h1>{t.heroTitle}</h1>
             <p className="heroText">{t.heroText}</p>
 
             <div className="heroButtons">
-              <a className="btn primary" href={WHATSAPP} target="_blank">
-                {t.cta} →
+              <a className="btn primary" href={WHATSAPP} target="_blank" rel="noreferrer">
+                {t.cta}
               </a>
               <a className="btn secondary" href="#trattamenti">
                 {t.cta2}
@@ -166,13 +164,16 @@ function App() {
           </div>
 
           <div className="servicesGrid">
-            {s.map((service) => (
+            {currentServices.map((service) => (
               <article className="serviceCard" key={service.title}>
-                <h3>{service.title}</h3>
-                <p>{service.desc}</p>
-                <a href={WHATSAPP} target="_blank">
-                  {t.cta}
-                </a>
+                <img src={service.img} alt={service.title} />
+                <div className="serviceBody">
+                  <h3>{service.title}</h3>
+                  <p>{service.desc}</p>
+                  <a href={WHATSAPP} target="_blank" rel="noreferrer">
+                    {t.cta}
+                  </a>
+                </div>
               </article>
             ))}
           </div>
@@ -216,13 +217,13 @@ function App() {
             <p>{t.contactText}</p>
           </div>
 
-          <a className="btn primary big" href={WHATSAPP} target="_blank">
+          <a className="btn primary big" href={WHATSAPP} target="_blank" rel="noreferrer">
             WhatsApp
           </a>
         </section>
       </main>
 
-      <a className="floatingWhatsapp" href={WHATSAPP} target="_blank">
+      <a className="floatingWhatsapp" href={WHATSAPP} target="_blank" rel="noreferrer">
         WhatsApp
       </a>
 
@@ -233,4 +234,4 @@ function App() {
   )
 }
 
-export default App
+createRoot(document.getElementById('root')).render(<App />)
